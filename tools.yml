@@ -40,7 +40,7 @@
 api_key: admin
 galaxy_instance: http://localhost:8080
 tools:
-  - name: datamash_ops
+  - name: suite_datamash
     owner: iuc
     tool_panel_section_id: Text Manipulation
     tool_shed_url: https://toolshed.g2.bx.psu.edu
