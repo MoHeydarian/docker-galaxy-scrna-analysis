@@ -42,17 +42,17 @@ galaxy_instance: http://localhost:8080
 tools:
   - name: suite_datamash
     owner: iuc
-    tool_panel_section_id: Text Manipulation
+    tool_panel_section_id: textutil
     tool_shed_url: https://toolshed.g2.bx.psu.edu
     install_resolver_dependencies: True
   - name: suite_ggplot2
     owner: iuc
-    tool_panel_section_id: 'Graph/Display Data'
+    tool_panel_section_id: plots
     tool_shed_url: https://toolshed.g2.bx.psu.edu
     install_resolver_dependencies: True 
   - name: tsne
     owner: iuc
-    tool_panel_section_id: 'Graph/Display Data'
+    tool_panel_section_id: plots
     tool_shed_url: https://toolshed.g2.bx.psu.edu
     install_resolver_dependencies: True
   - name: fastqc
@@ -93,5 +93,17 @@ tools:
   - name: scpipe
     owner: iuc
     tool_panel_section_label: 'Downstream processing'
+    tool_shed_url: https://toolshed.g2.bx.psu.edu
+    install_resolver_dependencies: True
+  - name: data_manager_hisat2_index_builder
+    owner: iuc
+    tool_shed_url: https://toolshed.g2.bx.psu.edu
+    install_resolver_dependencies: True
+  - name: data_manager_star_index_builder
+    owner: iuc
+    tool_shed_url: https://toolshed.g2.bx.psu.edu
+    install_resolver_dependencies: True
+  - name: data_manager_fetch_genome_dbkeys_all_fasta
+    owner: iuc
     tool_shed_url: https://toolshed.g2.bx.psu.edu
     install_resolver_dependencies: True
